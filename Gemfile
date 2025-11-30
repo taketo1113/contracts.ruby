@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 group :test do
-  gem "aruba"
+  gem "aruba", github: "cucumber/aruba"
   gem "cucumber", ">= 9.2.1"
   gem "rspec"
 
