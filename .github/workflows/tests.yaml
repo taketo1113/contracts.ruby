@@ -9,7 +9,7 @@ on:
       - 'CHANGELOG.markdown'
   push:
     branches:
-      - master
+      #- master
     paths-ignore:
       - 'README.md'
       - 'CHANGELOG.markdown'
